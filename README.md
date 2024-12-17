@@ -13,13 +13,6 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
 - **Lombok**: Para la generación automática de getters, setters, constructores, etc.
 - **Maven/Gradle**: Herramienta de gestión de dependencias y construcción del proyecto.
 
-## Requisitos previos
-
-Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes programas:
-
-- **Java 11 o superior**: [Descargar desde Oracle](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) o [AdoptOpenJDK](https://adoptopenjdk.net/).
-- **Maven** (si usas Maven): [Descargar Maven](https://maven.apache.org/download.cgi).
-- **Git** (opcional, si necesitas clonar el repositorio): [Descargar Git](https://git-scm.com/downloads).
 
 ## Instalación
 
