@@ -20,4 +20,4 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
    Si no tienes el proyecto aún, clónalo con Git:
 
    ```bash
-   git clone https://github.com/usuario/proyecto-springboot.git
+   git clone https://github.com/IvanLopez-Source/Formula-1.git
