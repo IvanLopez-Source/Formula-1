@@ -39,29 +39,57 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
    - Implementa un controlador global de excepciones utilizando @RestControllerAdvice.
    - Personaliza las respuestas para errores comunes como 404 Not Found, 400 Bad Request, y 500 Internal Server Error.
 
+5. Número de Tablas y Relaciones (hasta 15 puntos)
+   - Diseña varias tablas relacionadas (mínimo 1 y máximo 3 tablas, 5 puntos por tabla).
+   - Implementa relaciones entre tablas (1:1, 1:N, N:M). Documenta las relaciones en el README.
 
+6. Uso de Enumerados (5 puntos)
+   -Implementa al menos un campo enumerado en una entidad. Ejemplo: Tipo de personaje (HUMANO, ALIEN) o Estado (ACTIVE, INACTIVE).
+   
+7. Uso de Fechas (5 puntos)
+   - Incluye fechas en las entidades, como fechas de creación o actualización. Usa @Temporal o LocalDateTime.
 
+8. Upload de Imágenes (25 puntos)
+   - Agrega funcionalidad para subir imágenes a la API. Ejemplo: imágenes de personajes o hobbies.
+   - Las imágenes pueden almacenarse en un directorio local o un servicio.
 
+9. Integrar Docker (20 puntos)
+   - Docker para producción
+   - Docker Compose para los servicios en desarrollo, test, etc..
 
+10. Perfiles de Test, Producción y Desarrollo (10 puntos)
+   - Configura los perfiles necesarios y/o variables de entorno (dev, test, prod) con propiedades específicas (por ejemplo, bases de datos diferentes).
 
+11. Paginación y Filtros (20 puntos)
+   - Implementa paginación y filtros en al menos un endpoint GET.
+   - Usa alguna técnica para filtrar los resultados por algún campo.
+   - Usa Spring Data Pageable para devolver resultados paginados.
 
+12. Pipeline de CI/CD (20 puntos)
+   -
 
+13. Documentación de la API (10 puntos)
+   - Documenta la API utilizando herramientas como Swagger o Springdoc OpenAPI.
+   - Cada endpoint debe estar claramente descrito con ejemplos de entrada y salida.
 
+14. Documentación del README (Obligado)
+   - Crea un README profesional con:
+   -- Descripción del proyecto.
+   -- Pasos para ejecutar la aplicación y pasar los tests.
+   -- Modelos E/R de la base de datos.
+   -- Explicación de los perfiles.
+   -- Listado de endpoints y ejemplos de uso.
 
+15. 
+   - Sigue buenas prácticas con mensajes de commit claros, como: "feat: add create character endpoint"
 
+16. Gestión de Tareas con Kanban (10 puntos)
+   - Organiza tus tareas en un tablero Kanban (Trello, GitHub Projects, etc.).
+   - Incluye historias de usuario y subtareas. Asegúrate de mantener el tablero actualizado.
 
-
-
-
-
-
-
-
-
-
-
-
-
+17. Seguridad (20 puntos)
+   - Implementa Spring Security con autenticación básica o JWT.
+   - Define roles (USER, ADMIN) y protege algunos endpoints según el rol.
 
 
 
