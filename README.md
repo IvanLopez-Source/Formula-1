@@ -80,7 +80,7 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
    -- Explicación de los perfiles.
    -- Listado de endpoints y ejemplos de uso.
 
-15. 
+15. Commits Semánticos (10 puntos)
    - Sigue buenas prácticas con mensajes de commit claros, como: "feat: add create character endpoint"
 
 16. Gestión de Tareas con Kanban (10 puntos)
