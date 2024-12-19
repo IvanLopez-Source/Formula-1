@@ -31,7 +31,7 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
    - Implementa pruebas unitarias con JUnit y mocks con Mockito.
    - Implementa pruebas de integración para al menos un endpoint con herramientas como RestAssured.
    
-3. Uso de DTOs y Mappers (15 punto
+3. Uso de DTOs y Mappers (15 puntos)
    - Implementa DTOs (Data Transfer Objects) para separar la lógica de las entidades de la lógica de entrada/salida de datos.
    - Usa un mapeador como MapStruct o una conversión manual para transformar entre entidades y DTOs.
 
