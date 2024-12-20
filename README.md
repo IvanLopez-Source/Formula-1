@@ -22,6 +22,28 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
    ```bash
    git clone https://github.com/IvanLopez-Source/Formula-1.git
 
+
+## 🧑 **Gestor de Pilotos**
+
+### **Requisitos Funcionales:**
+
+1. **Registro de Pilotos:**
+    - Permitir registrar pilotos con la siguiente información:
+        - Nombre completo (nombre y apellidos).
+        - Edad.
+        - Identificación única del piloto.
+2. **Búsqueda de Pilotos:**
+    - Buscar tutores por su nombre o número de identificación único.
+3. **Listado de Pilotos:**
+    - Listar todos los Pilotos registrados en el sistema.
+    - Mostrar información básica como nombre y edad.
+4. **Actualización de Pilotos:**
+    - Permitir modificar los datos de un tutor registrado.
+5. **Eliminación de Pilotos:**
+    - Permitir eliminar un piloto del sistema si ya no tiene pacientes asociados.
+
+
+
 ## Requisitos 
 1. CRUD Completo (35 puntos)
    - Implementa las operaciones básicas de un CRUD (Create, Read, Update, Delete) para al menos una entidad de tu temática.
