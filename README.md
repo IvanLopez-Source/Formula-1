@@ -33,85 +33,31 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
         - Edad.
         - Identificación única del piloto.
 2. **Búsqueda de Pilotos:**
-    - Buscar tutores por su nombre o número de identificación único.
+    - Buscar pilotos por su nombre o número de identificación único.
 3. **Listado de Pilotos:**
     - Listar todos los Pilotos registrados en el sistema.
     - Mostrar información básica como nombre y edad.
 4. **Actualización de Pilotos:**
-    - Permitir modificar los datos de un tutor registrado.
+    - Permitir modificar los datos de un piloto registrado.
 5. **Eliminación de Pilotos:**
     - Permitir eliminar un piloto del sistema si ya no tiene pacientes asociados.
 
+## 🏎️ **Gestor de Coches**
 
+### **Requisitos Funcionales:**
 
-## Requisitos 
-1. CRUD Completo (35 puntos)
-   - Implementa las operaciones básicas de un CRUD (Create, Read, Update, Delete) para al menos una entidad de tu temática.
-   - Cada operación correctamente implementada suma puntos.
-
-2. Pruebas (30 puntos)
-   - Implementa pruebas unitarias con JUnit y mocks con Mockito.
-   - Implementa pruebas de integración para al menos un endpoint con herramientas como RestAssured.
-   
-3. Uso de DTOs y Mappers (15 puntos)
-   - Implementa DTOs (Data Transfer Objects) para separar la lógica de las entidades de la lógica de entrada/salida de datos.
-   - Usa un mapeador como MapStruct o una conversión manual para transformar entre entidades y DTOs.
-
-4. Manejo de Excepciones (15 puntos)
-   - Implementa un controlador global de excepciones utilizando @RestControllerAdvice.
-   - Personaliza las respuestas para errores comunes como 404 Not Found, 400 Bad Request, y 500 Internal Server Error.
-
-5. Número de Tablas y Relaciones (hasta 15 puntos)
-   - Diseña varias tablas relacionadas (mínimo 1 y máximo 3 tablas, 5 puntos por tabla).
-   - Implementa relaciones entre tablas (1:1, 1:N, N:M). Documenta las relaciones en el README.
-
-6. Uso de Enumerados (5 puntos)
-   -Implementa al menos un campo enumerado en una entidad. Ejemplo: Tipo de personaje (HUMANO, ALIEN) o Estado (ACTIVE, INACTIVE).
-   
-7. Uso de Fechas (5 puntos)
-   - Incluye fechas en las entidades, como fechas de creación o actualización. Usa @Temporal o LocalDateTime.
-
-8. Upload de Imágenes (25 puntos)
-   - Agrega funcionalidad para subir imágenes a la API. Ejemplo: imágenes de personajes o hobbies.
-   - Las imágenes pueden almacenarse en un directorio local o un servicio.
-
-9. Integrar Docker (20 puntos)
-   - Docker para producción
-   - Docker Compose para los servicios en desarrollo, test, etc..
-
-10. Perfiles de Test, Producción y Desarrollo (10 puntos)
-   - Configura los perfiles necesarios y/o variables de entorno (dev, test, prod) con propiedades específicas (por ejemplo, bases de datos diferentes).
-
-11. Paginación y Filtros (20 puntos)
-   - Implementa paginación y filtros en al menos un endpoint GET.
-   - Usa alguna técnica para filtrar los resultados por algún campo.
-   - Usa Spring Data Pageable para devolver resultados paginados.
-
-12. Pipeline de CI/CD (20 puntos)
-   -
-
-13. Documentación de la API (10 puntos)
-   - Documenta la API utilizando herramientas como Swagger o Springdoc OpenAPI.
-   - Cada endpoint debe estar claramente descrito con ejemplos de entrada y salida.
-
-14. Documentación del README (Obligado)
-   - Crea un README profesional con:
-   -- Descripción del proyecto.
-   -- Pasos para ejecutar la aplicación y pasar los tests.
-   -- Modelos E/R de la base de datos.
-   -- Explicación de los perfiles.
-   -- Listado de endpoints y ejemplos de uso.
-
-15. Commits Semánticos (10 puntos)
-   - Sigue buenas prácticas con mensajes de commit claros, como: "feat: add create character endpoint"
-
-16. Gestión de Tareas con Kanban (10 puntos)
-   - Organiza tus tareas en un tablero Kanban (Trello, GitHub Projects, etc.).
-   - Incluye historias de usuario y subtareas. Asegúrate de mantener el tablero actualizado.
-
-17. Seguridad (20 puntos)
-   - Implementa Spring Security con autenticación básica o JWT.
-   - Define roles (USER, ADMIN) y protege algunos endpoints según el rol.
-
-
+1. **Registro de Coches:**
+    - Permitir registrar coches con la siguiente información:
+        - Nombre.
+        - Modelo.
+        - Color.
+2. **Búsqueda de Coches:**
+    - Buscar coches por su nombre o número de identificación único.
+3. **Listado de Coches:**
+    - Listar todos los coches registrados en el sistema.
+    - Mostrar información básica como modelo y color.
+4. **Actualización de Coches:**
+    - Permitir modificar los datos de un coche registrado.
+5. **Eliminación de Coches:**
+    - Permitir eliminar un coche del sistema si ya no tiene pacientes asociados.
 
