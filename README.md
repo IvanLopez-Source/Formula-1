@@ -40,9 +40,9 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
 4. **Actualización de Pilotos:**
     - Permitir modificar los datos de un piloto registrado.
 5. **Eliminación de Pilotos:**
-    - Permitir eliminar un piloto del sistema si ya no tiene pacientes asociados.
+    - Permitir eliminar un piloto del sistema.
 
-## 🏎️ **Gestor de Coches**
+## 🏎️ **Gestor de Coches** 
 
 ### **Requisitos Funcionales:**
 
@@ -59,5 +59,24 @@ Este proyecto es una aplicación desarrollada con **Spring Boot**, que implement
 4. **Actualización de Coches:**
     - Permitir modificar los datos de un coche registrado.
 5. **Eliminación de Coches:**
-    - Permitir eliminar un coche del sistema si ya no tiene pacientes asociados.
+    - Permitir eliminar un coche del sistema.
 
+## 🏁 **Gestor de Equipos**
+
+### **Requisitos Funcionales:**
+
+1. **Registro de Equipos:**
+    - Permitir registrar equipos con la siguiente información:
+        - Nombre completo.
+        - Pais.
+        - Coche.
+        - Piloto.
+2. **Búsqueda de Equipos:**
+    - Buscar equipos por su nombre o número de identificación único.
+3. **Listado de Equipos:**
+    - Listar todos los equipos registrados en el sistema.
+    - Mostrar información básica como nombre y pais.
+4. **Actualización de Equipos:**
+    - Permitir modificar los datos de un equipo registrado.
+5. **Eliminación de Equipo:**
+    - Permitir eliminar un equipo del sistema.
