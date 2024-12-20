@@ -13,6 +13,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Driver {
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -21,10 +22,11 @@ public class Driver {
     private String lastname;
     private int age;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)
     private Car car;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)
+
     private Team team;
 
     // Constructor con los parámetros esperados

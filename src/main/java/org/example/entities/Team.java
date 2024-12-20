@@ -21,6 +21,7 @@ public class Team {
 
     private String country;
 
+
     public Team(String name, String country) {
         this.name = name;
         this.country = country;
